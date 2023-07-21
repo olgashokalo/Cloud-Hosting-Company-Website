@@ -455,7 +455,15 @@ a {
 /* Testimonials */
 
 .testimonial {
-  padding: 3rem;
+  padding: 3rem 2rem;
+}
+
+.testimonial .quote {
+  margin: 2rem 0;
+}
+.testimonial .quote,
+.testimonial .quote__author {
+  font-size: 2.2rem;
 }
 .testimonial__image {
   position: relative;
@@ -478,9 +486,9 @@ a {
   }
 
   .testimonial .quote {
-    margin: 5rem 0 0 6rem;
-    /* font-size: 120%;
-    line-height: 1.5; */
+    margin: 5rem 0;
+    font-size: 120%;
+    line-height: 1.5;
   }
 }
 /* Callouts */
@@ -498,6 +506,7 @@ a {
 }
 .callout__content {
   text-align: center;
+  font-size: 2rem;
 }
 .callout__heading {
   color: #fff;
